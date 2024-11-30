@@ -357,9 +357,7 @@ Examples:
     
 ''' % sys.argv[0]
 
-
-# Launch program
-if __name__ == '__main__':
+def main():
     """Run from CLI"""
 
     # Defaults
@@ -551,3 +549,7 @@ if __name__ == '__main__':
     # Launch AutoDirbuster
     adb = AutoDirbuster(arguments)
     adb.main()
+
+# Launch program
+if __name__ == '__main__':
+    main()
