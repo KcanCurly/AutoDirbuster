@@ -10,7 +10,8 @@ setup(
     url="https://github.com/KcanCurly/AutoDirbuster",
     packages=find_packages(),
     install_requires=[
-        "impacket",
+        "requests",
+        "dnspython"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
